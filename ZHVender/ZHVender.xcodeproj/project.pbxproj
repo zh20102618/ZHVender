@@ -16,6 +16,7 @@
 		7989A4721C8D76810086F7C6 /* RootCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7989A4711C8D76810086F7C6 /* RootCell.m */; };
 		7989A4791C8D7BEE0086F7C6 /* ZHPullHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7989A4781C8D7BEE0086F7C6 /* ZHPullHeaderView.m */; };
 		7989A47C1C8D7C0E0086F7C6 /* UITableView+SpringAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7989A47B1C8D7C0E0086F7C6 /* UITableView+SpringAnimation.m */; };
+		79F70D001C8EA06A002326B8 /* ZHHeaderAnimationFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F70CFF1C8EA06A002326B8 /* ZHHeaderAnimationFile.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,8 @@
 		7989A4781C8D7BEE0086F7C6 /* ZHPullHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHPullHeaderView.m; sourceTree = "<group>"; };
 		7989A47A1C8D7C0E0086F7C6 /* UITableView+SpringAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+SpringAnimation.h"; sourceTree = "<group>"; };
 		7989A47B1C8D7C0E0086F7C6 /* UITableView+SpringAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+SpringAnimation.m"; sourceTree = "<group>"; };
+		79F70CFE1C8E9FD6002326B8 /* ZHHeaderAnimationFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHHeaderAnimationFile.h; sourceTree = "<group>"; };
+		79F70CFF1C8EA06A002326B8 /* ZHHeaderAnimationFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHHeaderAnimationFile.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +97,8 @@
 		7989A4731C8D79E10086F7C6 /* HeaderPullAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				79F70CFE1C8E9FD6002326B8 /* ZHHeaderAnimationFile.h */,
+				79F70CFF1C8EA06A002326B8 /* ZHHeaderAnimationFile.m */,
 				7989A4771C8D7BEE0086F7C6 /* ZHPullHeaderView.h */,
 				7989A4781C8D7BEE0086F7C6 /* ZHPullHeaderView.m */,
 				7989A47A1C8D7C0E0086F7C6 /* UITableView+SpringAnimation.h */,
@@ -172,6 +177,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79F70D001C8EA06A002326B8 /* ZHHeaderAnimationFile.m in Sources */,
 				7989A4611C8D739B0086F7C6 /* ViewController.m in Sources */,
 				7989A4721C8D76810086F7C6 /* RootCell.m in Sources */,
 				7989A45E1C8D739B0086F7C6 /* AppDelegate.m in Sources */,
@@ -326,6 +332,7 @@
 				7989A46F1C8D739B0086F7C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -10,6 +10,8 @@
 
 #import "RootCell.h"
 
+#import "UITableView+SpringAnimation.h"
+
 @interface ViewController ()<UITableViewDataSource,UITableViewDelegate>
 
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
@@ -21,7 +23,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    self.automaticallyAdjustsScrollViewInsets = NO;
     
+    self.tableView.pullHeaderView = [ZHPullHeaderView headerViewUsingImage:[UIImage imageNamed:@"Image2"]];
 }
 
 #pragma mark - UITableViewDataSource,UITableViewDelegate

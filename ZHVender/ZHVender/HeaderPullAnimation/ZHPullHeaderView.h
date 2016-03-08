@@ -10,4 +10,8 @@
 
 @interface ZHPullHeaderView : UIView
 
++ (instancetype)headerViewUsingImage:(UIImage *)image;
+
+- (void)animationChangeHeight:(CGFloat)changeHeight;
+
 @end
