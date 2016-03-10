@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7961683B1C8FC1A800DACCED /* ZHQRCodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7961683A1C8FC1A800DACCED /* ZHQRCodeView.m */; };
+		7961683E1C900E8100DACCED /* QRCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7961683D1C900E8100DACCED /* QRCodeViewController.m */; };
 		7989A45B1C8D739B0086F7C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7989A45A1C8D739B0086F7C6 /* main.m */; };
 		7989A45E1C8D739B0086F7C6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7989A45D1C8D739B0086F7C6 /* AppDelegate.m */; };
 		7989A4611C8D739B0086F7C6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7989A4601C8D739B0086F7C6 /* ViewController.m */; };
@@ -20,6 +22,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		796168391C8FC1A800DACCED /* ZHQRCodeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHQRCodeView.h; sourceTree = "<group>"; };
+		7961683A1C8FC1A800DACCED /* ZHQRCodeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHQRCodeView.m; sourceTree = "<group>"; };
+		7961683C1C900E8100DACCED /* QRCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRCodeViewController.h; sourceTree = "<group>"; };
+		7961683D1C900E8100DACCED /* QRCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRCodeViewController.m; sourceTree = "<group>"; };
 		7989A4561C8D739B0086F7C6 /* ZHVender.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZHVender.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7989A45A1C8D739B0086F7C6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7989A45C1C8D739B0086F7C6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +57,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		796168371C8FC11000DACCED /* ZHQRCode */ = {
+			isa = PBXGroup;
+			children = (
+				796168391C8FC1A800DACCED /* ZHQRCodeView.h */,
+				7961683A1C8FC1A800DACCED /* ZHQRCodeView.m */,
+			);
+			path = ZHQRCode;
+			sourceTree = "<group>";
+		};
+		796168381C8FC12A00DACCED /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				7961683C1C900E8100DACCED /* QRCodeViewController.h */,
+				7961683D1C900E8100DACCED /* QRCodeViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
 		7989A44D1C8D739B0086F7C6 = {
 			isa = PBXGroup;
 			children = (
@@ -77,6 +101,8 @@
 				7989A4621C8D739B0086F7C6 /* Main.storyboard */,
 				7989A4701C8D76810086F7C6 /* RootCell.h */,
 				7989A4711C8D76810086F7C6 /* RootCell.m */,
+				796168381C8FC12A00DACCED /* ViewControllers */,
+				796168371C8FC11000DACCED /* ZHQRCode */,
 				7989A4731C8D79E10086F7C6 /* HeaderPullAnimation */,
 				7989A4651C8D739B0086F7C6 /* Assets.xcassets */,
 				7989A4671C8D739B0086F7C6 /* LaunchScreen.storyboard */,
@@ -181,6 +207,8 @@
 				7989A4611C8D739B0086F7C6 /* ViewController.m in Sources */,
 				7989A4721C8D76810086F7C6 /* RootCell.m in Sources */,
 				7989A45E1C8D739B0086F7C6 /* AppDelegate.m in Sources */,
+				7961683B1C8FC1A800DACCED /* ZHQRCodeView.m in Sources */,
+				7961683E1C900E8100DACCED /* QRCodeViewController.m in Sources */,
 				7989A4791C8D7BEE0086F7C6 /* ZHPullHeaderView.m in Sources */,
 				7989A45B1C8D739B0086F7C6 /* main.m in Sources */,
 				7989A47C1C8D7C0E0086F7C6 /* UITableView+SpringAnimation.m in Sources */,
@@ -296,6 +324,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ZHVender/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kuangxiang.ZHVender;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -307,6 +336,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ZHVender/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kuangxiang.ZHVender;
 				PRODUCT_NAME = "$(TARGET_NAME)";
