@@ -33,3 +33,5 @@
     导入#import "UITableView+SpringAnimation.h"
     
     self.tableView.pullHeaderView = [ZHPullHeaderView headerViewUsingImage:[UIImage imageNamed:@"Image2"]];
+    
+    /Users/zhanghan/Desktop/2.gif
